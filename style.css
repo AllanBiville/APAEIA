@@ -44,7 +44,7 @@ img {
 .div-lien {
   background-color: lightslategray;
   border: 5px solid orange;
-  padding: 50px 30px;
+  padding: 50px 15px;
   text-align: center;
   width: 250px;
   margin: 50px auto;
@@ -63,4 +63,9 @@ img {
   font-size: 40px;
   padding: 5px;
   color: white;
+}
+.para-index {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 150%;
 }
