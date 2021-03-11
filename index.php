@@ -25,16 +25,18 @@
         <a href="index.php"><img src="images/logo.png" /></a>
       <nav>
           <a href="index.php">Accueil</a>
-        <a href="intranet.html">Intranet</a>
-        <a href="doc-utilisateur.html">Documentation Utilistateur</a>
-        <a href="application.html">Application</a>
-      </nav></br>
+        <a href="intranet.php">Intranet</a>
+        <a href="doc-utilisateur.php">Documentation Utilistateur</a>
+        <a href="application.php">Application</a>
+        <br/><br/><br/><div class="sucess">
+        Bonjour <?php echo $_SESSION['username']; ?>
+        <a href="logout.php">Déconnexion</a>
+      	</div> </nav></br>
+
+
     </header>
     <main>
-    <div class="sucess">
-    <h1>Bienvenue <?php echo $_SESSION['username']; ?>!</h1>
-    <a href="logout.php">Déconnexion</a>
-	</div>
+    
       <h1 class="Titre-Page">Accueil</h1>
       <p class="para-index">APAEIA est un projet réalisé en BTS SIO 1, par groupe en labo salle 136.<br/><br/>
         Notre groupe est constituée de 4 personnes (3 developpeurs et 1 réseau) :<br/>

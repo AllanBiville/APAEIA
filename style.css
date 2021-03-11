@@ -81,7 +81,7 @@ h1.box-logo a {
   text-decoration:none;
 }
 h1.box-title {
-  color: #AEAEAE;
+  color: black;
   background: #f8f8f8;
   font-weight: 300;
   padding: 15px 25px;
@@ -92,7 +92,7 @@ h1.box-title {
 }
 .box-button {
   border-radius: 5px;
-  background: #d2483c;
+  background: orange;
   text-align: center;
   cursor: pointer;
   font-size: 19px;
