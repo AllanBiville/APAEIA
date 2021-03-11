@@ -14,9 +14,9 @@
 
   <body>
     <header>
-        <a href="index.html"><img src="images/logo.png" /></a>
+        <a href="index.php"><img src="images/logo.png" /></a>
       <nav>
-          <a href="index.html">Accueil</a>
+          <a href="index.php">Accueil</a>
         <a href="intranet.html">Intranet</a>
         <a href="doc-utilisateur.html">Documentation Utilistateur</a>
         <a href="application.html">Application</a>
