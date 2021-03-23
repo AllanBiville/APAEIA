@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap");
 body {
-  background-color: lightgray;
+  background-color: lightgrey;
   margin: 0;
   padding: 0;
   font-family: "Lexend Mega", sans-serif;
@@ -22,6 +22,7 @@ nav a {
   font-weight: bold;
   text-decoration: none;
   color: white;
+  font-size:20px ;
 }
 
 nav a:hover {
@@ -129,7 +130,9 @@ h1.box-title {
     border-color:#5c7186;
 }
 .sucess{
-  text-align: center;
+text-align:left;
+margin-bottom:25px;
+  
 }
 .sucess a {
   text-decoration: none;
@@ -143,4 +146,42 @@ p.errorMessage {
     border-radius: 3px;
 }
 
+/* Menu déroulant */
 
+.outils {
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top:20px;
+  padding: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size:20px ;
+  
+  }
+  .outils:hover {
+  color: black;
+  }
+  .dropdown {
+  position: relative;
+  display: inline-block;
+  }
+  .dropdown-child {
+  display: none;
+  background-color: orange;
+  position:absolute;
+  min-width:50px;
+  
+}
+  .dropdown-child a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  display: block;
+
+  }
+  .dropdown:hover .dropdown-child {
+  display: block;
+  }
+/*  fin  */

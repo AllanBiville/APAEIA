@@ -23,16 +23,28 @@
 
   <body>
   <header>
-        <a href="index.php"><img src="images/logo.png" /></a>
-        <nav>
-          <a href="index.php">Accueil</a>
-        <a href="intranet.php">Intranet</a>
-        <a href="doc-utilisateur.php">Documentation Utilistateur</a>
-        <a href="application.php">Application</a>
-        <br/><br/><br/><div class="sucess">
-        Bonjour <?php echo $_SESSION['username']; ?>
+   
+  <nav>
+      <div class="sucess">
+        Bonjour <?php echo $_SESSION['username']; 
+        ?>
         <a href="logout.php">Déconnexion</a>
-      	</div> </nav></br>
+        </div> 
+     
+        <a href="index.php">Accueil</a>
+        <div class="dropdown">
+        <button class="outils">Outils</button>
+        <div class="dropdown-child">
+          <a href="application.php">Application</a>
+          <a href="document.php">Documentation créateur</a>
+          <a href="doc-utilisateur.php">Documentation Utilistateur</a>
+        </div>
+        </div>
+        <a href="intranet.php">Intranet</a>
+        
+
+
+      	</nav></br>
 
         
     </header>
