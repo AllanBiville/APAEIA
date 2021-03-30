@@ -23,30 +23,24 @@
   <body>
     <header>
         <a href="index.php"><img src="images/logo.png" /></a>
-
       <nav>
       <div class="sucess">
         Bonjour <?php echo $_SESSION['username']; 
         ?>
         <a href="logout.php">Déconnexion</a>
-        </div> 
-     
+        </div>
         <a href="index.php">Accueil</a>
         <div class="dropdown">
-        <button class="outils">Outils</button>
+        <a id="menu-deroulant">Outils</a>
         <div class="dropdown-child">
-          <a href="application.php">Application</a>
-          <a href="document.php">Documentation créateur</a>
-          <a href="doc-utilisateur.php">Documentation Utilistateur</a>
+          <a href="https://docs.google.com/document/d/1VqLaJo0amkRZ59FRvjcIL0jjOdXzsK49X_X0E1yxwIM/edit?usp=sharing">Documentation Technique</a>
+          <a href="https://docs.google.com/document/d/1J45vOBnCVOw279oP22MAeJOMb6dlHaYUg9Qr__D0sB8/edit?usp=sharing">Documentation Utilistateur</a>
+          <a href=""></a>
+        
         </div>
         </div>
         <a href="intranet.php">Intranet</a>
-        
-
-
       	</nav></br>
-
-
     </header>
     <main>
     
@@ -59,4 +53,8 @@
         - Luidjy Aubel<br/>
       </p>
     </main>
+    <footer>
+      
+    </footer>
+</body>
 </html>

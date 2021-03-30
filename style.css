@@ -7,7 +7,6 @@ body {
 }
 header {
   background-color: lightslategray;
-  margin-top: -21px;
 }
 nav {
   text-align: center;
@@ -147,41 +146,39 @@ p.errorMessage {
 }
 
 /* Menu déroulant */
-
-.outils {
-  background-color: orange;
-  color: white;
-  border: none;
-  cursor: pointer;
-  margin-top:20px;
-  padding: 15px;
-  font-weight: bold;
-  text-decoration: none;
-  font-size:20px ;
-  
-  }
-  .outils:hover {
-  color: black;
-  }
-  .dropdown {
+#menu-deroulant{
+  padding: 15px 15px 24px;
+}
+#menu-deroulant:after {
+  font-size: 20px;
+  content: "▼";
+  padding: 8px;
+}
+.dropdown {
   position: relative;
   display: inline-block;
-  }
-  .dropdown-child {
-  display: none;
-  background-color: orange;
-  position:absolute;
-  min-width:50px;
   
 }
-  .dropdown-child a {
+.dropdown-child {
+  display: none;
+  background-color: orange;
+  position: absolute;
+  height: absolute;
+  z-index: 1;
+  border:2px solid black;
+  top: 50px;
+}
+.dropdown-child a {
   color: white;
-  padding: 20px;
+  padding: 8px 20px;
   text-decoration: none;
   display: block;
-
-  }
-  .dropdown:hover .dropdown-child {
+  font-size:20px;
+}
+.dropdown:hover .dropdown-child {
   display: block;
-  }
+}
+.dropdown-child:hover{
+  display: block;
+}
 /*  fin  */

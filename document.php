@@ -36,7 +36,7 @@
         <button class="outils">Outils</button>
         <div class="dropdown-child">
           <a href="application.php">Application</a>
-          <a href="document.php">Documentation créateur</a>
+          <a href="https://docs.google.com/document/d/1VqLaJo0amkRZ59FRvjcIL0jjOdXzsK49X_X0E1yxwIM/edit?usp=sharing">Documentation créateur</a>
           <a href="doc-utilisateur.php">Documentation Utilistateur</a>
         </div>
         </div>
