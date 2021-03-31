@@ -36,34 +36,6 @@ img {
   text-align: center;
   font-size: 150%;
 }
-.bouton_intranet {
-  width: 250px;
-  display: block;
-  margin: 0 auto;
-}
-.div-lien {
-  background-color: lightslategray;
-  border: 5px solid orange;
-  padding: 50px 15px;
-  text-align: center;
-  width: 250px;
-  margin: 50px auto;
-  position: relative;
-}
-.lien_intranet {
-  text-decoration: none;
-  color: white;
-  font-weight: bolder;
-}
-.lien_intranet:hover {
-  color: black;
-}
-.far,
-.fas {
-  font-size: 40px;
-  padding: 5px;
-  color: white;
-}
 .para-index {
   text-align: center;
   margin-top: 50px;
@@ -175,10 +147,13 @@ p.errorMessage {
   display: block;
   font-size:20px;
 }
+.dropdown-child a:first-child{
+    margin-top:10px;
+}
 .dropdown:hover .dropdown-child {
   display: block;
 }
 .dropdown-child:hover{
   display: block;
 }
-/*  fin  */
+/* Intranet */

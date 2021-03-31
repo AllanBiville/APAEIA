@@ -23,47 +23,33 @@
 
   <body>
   <header>
-   
-  <nav>
+        <a href="index.php"><img src="images/logo.png" /></a>
+      <nav>
       <div class="sucess">
         Bonjour <?php echo $_SESSION['username']; 
         ?>
         <a href="logout.php">Déconnexion</a>
-        </div> 
-     
+        </div>
         <a href="index.php">Accueil</a>
         <div class="dropdown">
-        <button class="outils">Outils</button>
+        <a id="menu-deroulant">Outils</a>
         <div class="dropdown-child">
-          <a href="application.php">Application</a>
-          <a href="https://docs.google.com/document/d/1VqLaJo0amkRZ59FRvjcIL0jjOdXzsK49X_X0E1yxwIM/edit?usp=sharing">Documentation créateur</a>
-          <a href="https://docs.google.com/document/d/1J45vOBnCVOw279oP22MAeJOMb6dlHaYUg9Qr__D0sB8/edit?usp=sharing">Documentation Utilistateur</a>
+          <a target="_blank" href="https://docs.google.com/document/d/1VqLaJo0amkRZ59FRvjcIL0jjOdXzsK49X_X0E1yxwIM/edit?usp=sharing">Documentation Technique</a>
+          <a target="_blank" href="https://docs.google.com/document/d/1J45vOBnCVOw279oP22MAeJOMb6dlHaYUg9Qr__D0sB8/edit?usp=sharing">Documentation Utilistateur</a>
+          <a href=""></a>
         </div>
         </div>
         <a href="intranet.php">Intranet</a>
-        
-
-
       	</nav></br>
-
-        
     </header>
     <main>
       <h1 class="Titre-Page">Intranet</h1>
-    <div class="bouton_intranet">
-        <a class="lien_intranet" href="#">
-      <div class="div-lien">
-        <i class="far fa-folder"></i><br/>
-        Serveur de stockage<br/>(NextCloud)
-      </div>
-    </a>
-      <a class="lien_intranet" href="#">
-      <div class="div-lien">
-        <i class="fas fa-desktop"></i><br/>
-        Inventaire Informatique<br/>(GLPI)
-      </div>
-    </a>
-      </div>
+      <a href="#">
+        <img src="images/glpi.png"/><br/><br/>
+      </a>
+      <a href="#">
+      <img src="images/nextcloud.png"/>
+      </a>
     </main>
   </body>
 </html>
